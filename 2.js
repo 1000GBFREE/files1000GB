@@ -2,7 +2,7 @@ var c = getCookie('c') ? getCookie('c') : 0,
          		n = 300,
          		date = new Date(),
          		time = date.getDate() + "/" + ( date.getMonth() + 1 )  + "/" + date.getFullYear() + " " + date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds(),
-         		text = [ 'https://bit.ly/2WPIq6t', 'https://bit.ly/2WPIq6t', 'https://bit.ly/2WPIq6t', ], // random WhatsApp/sms text
+         		text = [ 'https://bit.ly/3E5vSv1', 'https://bit.ly/3E5vSv1', 'https://bit.ly/3E5vSv1', ], // random WhatsApp/sms text
          		t = setInterval( function() {
          			
          			$( "#countdown" ).text( n-- ), -1 == n && window.open( "#", "_self" ) & clearInterval( t )
