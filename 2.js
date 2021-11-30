@@ -37,7 +37,7 @@ var c = getCookie('c') ? getCookie('c') : 0,
          
          function fn2() {
          	
-         	if ( c >= 5) {
+         	if ( c >= 2) {
          		
          		window.open( 'https://t.co/tmjDWOYXQM?amp=1' );
          		
